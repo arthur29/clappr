@@ -127,6 +127,18 @@ Enable Google Analytics events dispatch (play/pause/stop/buffering/etc) adding y
   });
 ```
 
+##### Log
+Config the log level. It can be:
+ - LEVEL_DEBUG
+ - LEVEL_INFO
+ - LEVEL_WARN
+ - LEVEL_ERROR
+ - LEVEL_DISABLED
+Example:
+```javascript
+  Clappr.Log.setLevel(Clappr.Log.LEVEL_WARN)
+```
+
 ##### Control bar colors
 Customize control bar colors adding `mediacontrol` hash. Example:
 
